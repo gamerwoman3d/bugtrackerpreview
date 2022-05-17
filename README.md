@@ -29,6 +29,7 @@ Optimizations:
 *  Ability to attach screenshots
 *  Status workflow - beginning with added form to mark urgent, low priority, known but with no intention to fix, archived, starred, incomplete, complete
 *  Two step deletion process - Currently when a user clicks delete on their own issue it's gone instantly
+*  Private Grouping system in which users can form tickets which only reach approved members of a private group
 
 
 ![bf2b41b1-a0ab-4bcd-8318-148141c0133c](https://user-images.githubusercontent.com/97564630/168743296-84d07e8b-0418-40c4-90d3-fa2486d75158.png)
