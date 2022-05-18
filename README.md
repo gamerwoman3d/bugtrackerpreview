@@ -30,6 +30,23 @@ Optimizations:
 *  Status workflow - beginning with added form to mark urgent, low priority, known but with no intention to fix, archived, starred, incomplete, complete
 *  Two step deletion process - Currently when a user clicks delete on their own issue it's gone instantly
 *  Private Grouping system in which users can form tickets which only reach approved members of a private group
+*  Ability to tie urgent tickets to encryption keys in order to delegate rewards and also encrypt sensitive issue information
+*  Trusted Community Cluster Security - each user selects a handful of other trusted users who may file security alert reports on the user's behalf
+*  Block to Ban flow
+*  Page Reporting system
+
+Page Reporting System Optimizations:
+*  When reporting a page there is a "Friend was Hacked" drop down 
+*  "Friend Was Hacked" automatically pauses the ability of the allegedly hacked entity if the number of reports passes 10% of that person's friend's list or with two verified security reports from that user's Trusted Community Cluster
+*  Blocking another user has an optional feedback reporting page
+*  "Would you like to be contacted by other users who have also blocked [user]?"
+*  "Would you like to be contacted by the moderation team at this time?"
+*  Users with 5 blocks in any 24 hour spread have thier content and conduct automatically slated for review by the moderation team
+*  Users with a significant number of blocks triggers temporary or permanent bans, prevents them from using the system until reviewed by Trusted Community Cluster and moderation team
+*  Any user in the Trusted Community Cluster of 5 or more banned users automatically slated for review by the moderation team
+*  Additional blocks and suspicious activity pushes the issue higher on the moderation team review board
+*  IP addresses with a block ratio of 11% automatically blocked from using system. A report is sent to the internet service provider and users.
+
 
 
 ![bf2b41b1-a0ab-4bcd-8318-148141c0133c](https://user-images.githubusercontent.com/97564630/168743296-84d07e8b-0418-40c4-90d3-fa2486d75158.png)
